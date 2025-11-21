@@ -13,7 +13,7 @@ import React, { useEffect, useMemo, useState } from "react";
  */
 
 const BACKEND_BASE = process.env.REACT_APP_API_URL;
-const CUISINES_API_BASE = `${BACKEND_BASE}/springAI/cuisinesacross`;
+const CUISINES_API_BASE = `${BACKEND_BASE}/cuisinesacross`;
 
 export default function CuisineSelector({ onSelect, initialCuisine = "" }) {
   const [continent, setContinent] = useState("");
