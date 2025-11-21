@@ -11,7 +11,7 @@ import pageBg from "./assets/MultiCuisine.jpg";
 import recipeBg from "./assets/RecipePage.png";
 
 const BACKEND_BASE = process.env.REACT_APP_API_URL;
-const RECIPE_URL = `${BACKEND_BASE}/recipe-creater`;
+const RECIPE_URL = `${BACKEND_BASE}/springAI/recipe-creater`;
 
 export default function App() {
   const [step, setStep] = useState(1);
