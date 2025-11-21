@@ -1,4 +1,5 @@
 // src/CuisineSelector.js
+// trigger vercel rebuild
 import React, { useEffect, useMemo, useState } from "react";
 
 /**
