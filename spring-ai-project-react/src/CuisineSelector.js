@@ -11,7 +11,8 @@ import React, { useEffect, useMemo, useState } from "react";
  * <CuisineSelector onSelect={(c,continent) => ...} initialCuisine="..." />
  */
 
-const CUISINES_API_BASE = "http://localhost:8080/springAI/cuisinesacross";
+const BACKEND_BASE = process.env.REACT_APP_API_URL;
+const CUISINES_API_BASE = `${BACKEND_BASE}/cuisinesacross`;
 
 export default function CuisineSelector({ onSelect, initialCuisine = "" }) {
   const [continent, setContinent] = useState("");
