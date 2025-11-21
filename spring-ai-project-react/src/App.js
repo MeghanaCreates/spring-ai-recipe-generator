@@ -10,7 +10,7 @@ import CuisineSelector from "./CuisineSelector";
 import pageBg from "./assets/MultiCuisine.jpg";
 import recipeBg from "./assets/RecipePage.png";
 
-const BACKEND_BASE = "http://localhost:8080/springAI";
+const BACKEND_BASE = process.env.REACT_APP_API_URL;
 const RECIPE_URL = `${BACKEND_BASE}/recipe-creater`;
 
 export default function App() {
