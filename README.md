@@ -1,4 +1,6 @@
-# 🍽️ Kitchen In Your Hands — AI Powered Recipe Generator
+# 🍽️ Kitchen In Your Hands — AI Powered Recipe Generator 
+
+URL Link - https://spring-ai-recipe-generator-react.vercel.app/
 
 A smart, modern web application that generates personalized recipes based on cuisine selection, ingredients, and dietary restrictions, powered by AI.
 This personal project is to showcase full-stack development, AI integration, modern UI, and clean architecture using 
