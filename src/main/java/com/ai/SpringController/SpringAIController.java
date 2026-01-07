@@ -22,7 +22,7 @@ public class SpringAIController {
 	@GetMapping("/recipe-creater")
 	public String createRecipe(@RequestParam String ingredients, 
 							@RequestParam String cuisine,
-							@RequestParam(required = false) String dieteryRestrictions) {
+							@RequestParam String dieteryRestrictions) {
 		logger.info("Entered Recipe Creater {}");
 		return recipeService.createRecipe(ingredients, cuisine, dieteryRestrictions);
 		
@@ -36,4 +36,5 @@ public class SpringAIController {
 	}
 
 }
+
 
